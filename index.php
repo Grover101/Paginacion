@@ -30,7 +30,7 @@ $totalArticulos=$totalArticulos->fetch()['total'];
 
 $numeroPaginas=ceil($totalArticulos/$postPorPagina);
 
-echo $numeroPaginas;
+//echo $numeroPaginas;
 
 
 require_once 'index.view.php';
