@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background: #e9e9e9;
+	color: #2e2e2e;
+	font-family: 'Gochi Hand', cursive;
+}
+
+.contenedor{
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+h1{
+	margin: 20px 0;
+	text-align: center;
+	font-family: 'Gochi Hand', cursive;
+	color: #ce7f08;
+	font-weight: normal;
+}
+
+.contenedor .articulos{
+	margin-bottom: 20px;
+}
+
+.contenedor .articulos ul{
+	list-style: none;
+}
+
+.contenedor .articulos ul li{
+	padding: 15px 10px;
+	border-bottom: 1px solid #c8c8c8;
+}
+
+.paginacion ul{
+	list-style: none;
+}
+
+.paginacion ul li {
+	display: inline-block;
+	margin-right: 10px; 
+}
+
+.paginacion ul .active a{
+	background: #ce7f08;
+}
+
+.paginacion ul .disabled a{
+	background: #c8c8c8;
+	display: inline-block;
+	font-family: 'Gochi Hand', cursive;
+	padding: 15px 25px;
+	cursor: not-allowed;
+	color: #fff;
+	text-decoration: none;;
+}
+
+.paginacion ul li a{
+	display: inline-block;
+	font-family: 'Gochi Hand', cursive;
+	padding: 15px 25px;
+	background: #424242;
+	color: #fff;
+	text-decoration: none;
+}
+
+.paginacion ul li a:hover{
+	text-decoration: none;
+	background: #3299bb;
+}
+
